@@ -1,0 +1,92 @@
+\documentclass[a4paper]{article}
+
+% -------------------------------------------------
+% Packages
+% -------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+% -------------------------------------------------
+% Page Layout
+% -------------------------------------------------
+\geometry{left=25mm,right=25mm,top=25mm,bottom=25mm}
+\setstretch{1.15}
+
+% -------------------------------------------------
+% Header / Footer
+% -------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Operational Governance \& Versioning}
+\fancyhead[R]{\thepage}
+
+% -------------------------------------------------
+% Document Metadata
+% -------------------------------------------------
+\title{\textbf{Operational Governance \& Versioning Document}}
+\author{Team / Organization Name}
+\date{\today}
+
+% -------------------------------------------------
+% Document
+% -------------------------------------------------
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+% =================================================
+% 1. Purpose
+% =================================================
+\section{Purpose}
+Evaluate the student’s understanding of operational governance, version control, model lifecycle management, and monitoring practices.
+
+% =================================================
+% 2. Version Control Strategy
+% =================================================
+\section{Version Control Strategy}
+\begin{itemize}
+    \item Branching strategy
+    \item Tagging conventions
+    \item Versioning of code, data, and models
+\end{itemize}
+
+% =================================================
+% 3. CI/CD \& Automation
+% =================================================
+\section{CI/CD \& Automation}
+Describe pipelines, testing, deployment, and automation practices.
+
+% =================================================
+% 4. Model Lifecycle Governance
+% =================================================
+\section{Model Lifecycle Governance}
+\begin{itemize}
+    \item Model registry
+    \item Reproducibility
+    \item Experiment tracking
+\end{itemize}
+
+% =================================================
+% 5. Monitoring \& Maintenance Plan
+% =================================================
+\section{Monitoring \& Maintenance Plan}
+\begin{itemize}
+    \item Drift detection
+    \item Incident response
+    \item Logging and alerting
+\end{itemize}
+
+\end{document}
